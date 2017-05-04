@@ -1,0 +1,67 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+.container {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	font-family: 'Century Gothic';
+	letter-spacing: .5em;
+	color: #393939;
+	margin: 75px auto;
+	height: 560px;
+	width: 758px;
+	box-shadow: 10px 15px 39px rgba(0, 0, 0, .2);
+}
+
+.name {
+	display: inline-block;
+	width: 100%;
+	text-align: center;
+	font-size: 3em;
+	position: absolute;
+	margin: 0 auto;
+	top: 80px;
+	visibility: visible;
+}
+
+.hidden {
+	visibility: hidden;
+}
+
+.image {
+	margin: 200px auto;
+	height: 220px;
+	width: 220px;
+	border-radius: 50%;
+	background-color:rgba(0, 0, 0, .1);
+	background-image: url('assets/mark_romano_14.jpg');
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.info {
+	position: absolute;
+	bottom: 67px;
+	left: 67px;
+}
+
+.logo {
+	position: absolute;
+	left: 0px;
+}
+
+.cohort {
+	position: absolute;
+	text-align: right;
+	right: -630px;
+}
+
+.blue {
+	color: #4592c3
+}
+
